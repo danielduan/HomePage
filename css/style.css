@@ -1,0 +1,214 @@
+body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; }
+
+a, img {
+	border: 0;
+}
+html {
+    height: 100%;
+}
+body {
+	height: 100%;
+	width: 100%;
+}
+ul {
+    list-style-image: url(../img/bullet.png);
+}
+
+#wrap {
+    position: relative;
+    width: 828px;
+	min-height: 100%;
+	margin: 0 auto -2em auto;
+	padding: 0 5px;
+	background-color: rgba(0,0,0,0.7);
+	border-width: 2px;
+	border-style: none ridge none ridge;
+	border-color: white;
+}
+.push {
+    height: 10.5em;
+}
+
+#contact-footer {
+	padding-left: 20px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    display: block;
+	width: 828px;
+	height:100px;
+	padding: .3em 0;
+	border-top: .1em solid #666;
+	color: #666;
+	font-size: .8em;
+	z-index: 1;
+	font-family: Helvetica, Tahoma, sans-serif;
+}
+
+#stats {
+	visibility: collapse;
+    position: absolute;
+    bottom: 0;
+    display: block;
+	width: 828px;
+	padding: .1 em 0;
+	color: #666;
+	font-size: 1em;
+	z-index: 1;
+	font-family: "Gill Sans";
+}
+
+#footer h1 {
+    color: white;
+    font-weight: normal;
+}
+
+#footer img {
+    height: 64px;
+    width: 64px;
+}
+
+#footer ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+#footer ul li {
+    float: left;
+    margin: .5em .5em;
+}
+
+#footer #resume-footer {
+    float: right;
+    margin-right: 20px;
+    text-align: right;
+}
+
+#header {
+	padding-left: 100px;
+	height: 125px;
+	position: relative;
+	border-bottom: 1px solid white;
+}
+#logo {
+	position: absolute;
+	display:none;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+	z-index: 10;
+}
+#tabs {
+	list-style: none;
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid white;
+	width: 550px;
+	margin: 0 auto;
+	padding: 0 2.5em;
+	font-size: 1.2em;
+	font-family: "Gill Sans", sans-serif;
+}
+#tabs li {
+	float: left;
+}
+#tabs li a {
+	display: block;
+	position: relative;
+	text-decoration: none;
+	color: #CCC;
+	padding: .1em .4em;
+	z-index: 10;
+}	
+#tabs li a:hover { /* this is the lavalamp li, created via js */
+	background-color: #333;
+  color:white;
+}
+
+.ui-tabs-hide {
+	display: none;
+}
+
+#tabs li.ui-tabs-selected a {
+	color: white;
+}
+
+#body {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	height: 100%;
+}
+
+#text .bubble {
+    background: rgba(255,255,255,0.90);
+    padding: 1em;
+    margin: .5em 0;
+    position: relative;
+}
+
+#text .bubble h1 {
+    font-family: Helvetica, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+#text #hello {
+    margin-top: .3em;
+    font: normal normal normal 2.3em Anivers, Tahoma, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1;
+}
+#text #hello span.highlight {
+	color: red;
+}
+
+#text {
+	font-size: 1.3em;
+	font-family: "Garamond", "Times New Roman", serif;
+	line-height: 1.2;
+	margin: 1em;
+	color: black;
+	z-index: 10;
+	height: 100%;
+}
+#text h2 {
+	font-size: 1.2em;
+	font-weight: normal;
+	font-family: Helvetica, Tahoma, sans-serif;
+	text-align: center;
+	line-height: 1.5;
+}
+
+#text h3 {
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	font-style: italic;
+	padding-left: 1.4em;
+}
+
+p {
+	margin-bottom: .5em;
+}
+
+ul {
+	list-style-position: outside;
+	margin-left: 1em;
+}
+
+#resume-footer-list {
+  margin-left: 2em;
+  text-align: right
+}
+
+#background {
+	position: fixed;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,51 @@
+#text #resume {
+    font-size: .8em;
+    position: relative;
+    padding: 2em 1em 2em 5em;
+    margin: 0 auto;
+}
+#text #resume h1, 
+#text #resume h2, 
+#resume p,
+#resume ul,
+#resume li {
+    font-size: 1em;
+    font-family: Optima;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    line-height: 1;
+}
+#resume p,
+#resume li {
+    font-size: .8em;
+}
+#resume p,
+#resume ul {
+    margin-bottom: 1em;
+}
+#resume p,
+#resume li {
+    line-height: 1.2;
+}
+#resume ul {
+    list-style: initial;
+    float: left;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+#text #resume h1 {
+    left: 0;
+    margin-left: -3em;
+    margin-bottom:0.5em;
+    text-align: left;
+    text-transform: lowercase;
+    color: gray;
+}
+
+#text #resume h2 {
+    margin-left: -0.75em;
+    margin-bottom: 0.2em;
+}
